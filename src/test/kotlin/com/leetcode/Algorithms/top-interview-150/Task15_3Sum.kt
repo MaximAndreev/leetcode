@@ -27,6 +27,7 @@ class Task15_3Sum {
             }
             // Search for the last number
             val currentSum = sortedNums[left] + sortedNums[right]
+            // Instead of a search through the list I can use a map
             val foundIdx = sortedNums.binarySearch(-currentSum, left + 1, right)
             if (foundIdx >= 0) {
                 answer.add(listOf(sortedNums[left], sortedNums[foundIdx], sortedNums[right]).sorted())
