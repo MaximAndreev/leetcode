@@ -2,7 +2,6 @@ package com.leetcode.Algorithms.`top-interview-150`
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import java.util.Queue
 
 /**
  * Given an array of positive integers nums and a positive integer target,
